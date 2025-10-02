@@ -1,0 +1,88 @@
+
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   /* background: linear-gradient(135deg,#f6d365, #fda085);*/
+    background-image: url('pictures/make\ a\ background\ image\ for\ toss\ coin\ game.jpg');
+    margin: 0;
+    padding: 80px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
+h1 { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:blanchedalmond;
+    margin-bottom: 40px;
+    font-size: 44px;
+}
+p {
+    color:rgba(227, 168, 19, 0.795);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.coin img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    size: cover;
+    transition: transform 1s;
+    padding: 20px;
+    
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    background: rgb(214, 157, 64);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover {
+    background: bisque;
+    color:black;
+    transition: 0.8s;
+   transition-property:initial;
+}
+
+
+#result {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color:antiquewhite;
+}
+
+.scoreboard {
+    margin-top: 25px;
+    font-size: 20px;
+    color: antiquewhite;
+    margin:20px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px;
+    text-shadow: rgba(60, 60, 60, 0.5);
+}
+
+
+
+
+
+
+
+
+@media (max-width:700px) {
+    
+}

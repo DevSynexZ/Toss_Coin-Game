@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
+    <title>Coin Toss</title>
+    <link rel="stylesheet" href="tosscoin.css" />
+    <link rel="icon" type="image/x-icon" href="pictures/favicon.ico" />
+  </head>
+
+  <body>
+    <h1>🪙 Toss Coin!! 🪙</h1>
+    <p>Toss!! Try your luck for a bit.</p>
+
+    <div id="coin" class="coin"><img src="pictures/head.jpg" alt="" /></div>
+
+    <!--BUTTONS-->
+    <button onclick="tossCoin()">Toss Coin</button>
+    <button onclick="resetGame()">Reset</button>
+
+    <!--RESULT-->
+    <div id="result"></div>
+
+    <!--SCORecard-->
+    <div class="scoreboard">
+      Heads: <span id="headsCount">0</span> <br />
+      Tails: <span id="tailsCount">0</span>
+    </div>
+
+    <footer>Created by SynexZ</footer>
+
+    <!--SCript-->
+
+    <script src="tosscoin.js"></script>
+  </body>
+</html>
